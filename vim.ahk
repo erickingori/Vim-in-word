@@ -55,4 +55,4 @@ p::Send, ^v
 ; Undo with u
 u::Send, ^z
 
-#If ; End of vkMode conditionj
+#If ; End of vkMode condition
