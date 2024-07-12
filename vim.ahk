@@ -1,9 +1,10 @@
-﻿; Initialize a variable vkMode to false (start in Insert mode)
+﻿; Initialize a variable vkMode to false (Meaning we start in Insert mode)
 vkMode := false
 
-; Toggle Normal mode with "jk"
+; Toggle normal mode with "jk" (This is my main difference), i use jk to enter normal mode
 ~j:: ; Use tilde (~) to let key passthrough
-    Input, SingleKey, L1 T0.3 ; Wait for single key press within 0.3 seconds
+; Wait for single key press within 0.3 seconds
+    Input, SingleKey, L1 T0.3 
     if (SingleKey = "k") { ; If the next key is "k"
         vkMode := !vkMode ; Toggle vkMode
         ToolTip, % vkMode ? "Normal Mode" : "" ; Show tooltip for mode
