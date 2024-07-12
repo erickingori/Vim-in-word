@@ -1,5 +1,4 @@
-﻿
-; Initialize a variable vkMode to false (start in Insert mode)
+﻿; Initialize a variable vkMode to false (start in Insert mode)
 vkMode := false
 
 ; Toggle Normal mode with "jk"
