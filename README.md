@@ -1,6 +1,7 @@
 # Instructions
 Download and install autohotkey from https://www.autohotkey.com/ <br>
-Open the vim.ahk file and change keys to your liking <br>
+clone the repository and open the vim.ahk file <br> 
+change the keys to your liking (there are comments on the code to identify used combinations)<br>
 save and run the file
 
 # Caution
